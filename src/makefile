@@ -1,0 +1,2 @@
+all: Nfa.cpp
+	g++ -g Nfa.cpp StructuralDecomposer.cpp GraphUtil.cpp FluxSet.cpp Grammar.cpp Flux.cpp Util.cpp Path.cpp Cyk.cpp PathFactory.cpp PathFactoryEcoNet.cpp RuntimeContext.cpp InterpretationListReducer.cpp FluxHistogram.cpp UniquePathReducer.cpp FunctionalDecomposer.cpp AdjacencyMatrixBuilder.cpp DecompositionPlanExecutor.cpp -Wno-deprecated -o nfa
