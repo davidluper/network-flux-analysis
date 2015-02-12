@@ -10,6 +10,9 @@
 
 using namespace std;
 
+// example run command
+// nfa --path-factory econet --paths-file paths.dat --directory ../systems/neuse/ --verbose
+
 void print_time() {
     time_t now = time(0);
     char* dt = ctime(&now);
