@@ -70,6 +70,7 @@ void FunctionalDecomposer::interpret_paths()
         }
         
         Path* path = m_context.path_factory().new_path_from_internal_string(buf);
+        // this is a hard coded stop.  need to work this in as a setting
         if (path->length() > 27) { 
             delete path; 
             continue; 
